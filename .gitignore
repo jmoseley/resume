@@ -1,2 +1,5 @@
 *.sublime-project
 *.sublime-workspace
+
+# Remove stuff from hackmyresume
+*.css

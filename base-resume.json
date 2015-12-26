@@ -118,6 +118,14 @@
         ]
       },
       {
+        "employer": "Internet Shakespeare Editions",
+        "position": "Part-time Developer",
+        "url": "http://ise.uvic.ca",
+        "summary": "Worked as a part-time member of a team while in school, using XQuery and XPath to maintain and develop new features for a long-term academic project run by the English department. Deisnged a mobile experience for an originally desktop browser only website, as well as used XQuery and XPath to process and transform marked up content in a variety of interesting ways, depending on how the content was being consumed.",
+        "start": "2012-10",
+        "end": "2013-08"
+      },
+      {
         "employer": "Vineyard Networks",
         "position": "Co-op Engineer",
         "summary": "Developed deep packet inspection (DPI) plugins for a software package that runs on network hardware.",
@@ -168,19 +176,6 @@
   "skills": {
     "sets": [
       {
-        "name": "Web Development",
-        "level": "beginner",
-        "skills": [
-          "JavaScript",
-          "HTML 5",
-          "CSS",
-          "LAMP",
-          "REST",
-          "PHP",
-          "Postgresql"
-        ]
-      },
-      {
         "name": "Distributed Systems",
         "level": "intermediate",
         "skills": [
@@ -213,6 +208,19 @@
           "EC2",
           "S3",
           "Route53"
+        ]
+      },
+      {
+        "name": "Web Development",
+        "level": "beginner",
+        "skills": [
+          "JavaScript",
+          "HTML 5",
+          "CSS",
+          "LAMP",
+          "REST",
+          "PHP",
+          "Postgresql"
         ]
       }
     ],
@@ -269,6 +277,11 @@
       "summary": "A travel type blog, using posts sourced from users that find/leave rubber ducks at interesting locations throughout the world. Still in pre-alpha stages, this project is a learning experiment for a reactive JS framework. The current implementation is build on top of MeteorJS and MongoDB.",
       "url": "https://www.oneduckadventure.com",
       "date": "2015-10"
+    },
+    {
+      "title": "Autonomous Quadcopter",
+      "summary": "Customized an open-source autonomous flight package for a specific application. This quadcopter was designed to fly autonomously and track a moving target, while simultanously keeping a camera positioned with the target in frame at all times. Required skills in microprocessors and real time systems.",
+      "date": "2014-05"
     }
   ],
   "languages": [
@@ -308,7 +321,7 @@
   "interests": [
     {
       "name": "mountain biking",
-      "summary": "Jeremy enjoys both cross-country and downhill mountain biking, both for the thrill and the atheltic aspect. Jeremy has enjoyed mountain biking in the BC interior, California, and Seattle areas.",
+      "summary": "Jeremy enjoys both cross-country and downhill mountain biking, both for the thrill and the atheltic aspect. Jeremy has enjoyed mountain biking in the BC interior, California, and Seattle areas."
     },
     {
       "name": "technology",
