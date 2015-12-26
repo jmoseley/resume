@@ -1,0 +1,324 @@
+{
+  "name": "Jeremy Moseley",
+  "meta": {
+    "format": "FRESH@0.1.0",
+    "version": "0.1.0"
+  },
+  "info": {
+    "label": "Backend Engineer",
+    "characterClass": "Software Engineer",
+    "brief": "**Jeremy is a focussed developer who is intrigued by the design and architecture of distributed systems. He has experience with distributed systems in Java, Scala, and Python, and has dabbled in everything from Javascript and HTML to databases and operating systems.",
+    "quote": "Technology "
+  },
+  "contact": {
+    "phone": "1-415-926-1955",
+    "email": "jeremy@jeremymoseley.net"
+  },
+  "location": {
+    "address": "Jeremy Moseley\n16540 Linden Ave. N\nSeattle, WA 98133",
+    "city": "Seattle",
+    "region": "WA",
+    "code": "98133",
+    "country": "US"
+  },
+  "social": [
+    {
+      "label": "GitHub",
+      "network": "GitHub",
+      "user": "jmoseley",
+      "url": "https://github.com/jmoseley"
+    },
+    {
+      "label": "LinkedIn",
+      "network": "LinkedIn",
+      "user": "Jeremy Moseley",
+      "url": "https://www.linkedin.com/in/jeremy-moseley-b3366437"
+    }
+  ],
+  "employment": {
+    "summary": "2+ years experience developing and maintaining distributed systems.",
+    "history": [
+      {
+        "employer": "Inkling Systems Inc.",
+        "url": "https://www.inkling.com",
+        "position": "Software Engineer 3",
+        "summary": "Maintain and develop a legacy system for transforming markup, as well as develop a new service for importing various types of content.",
+        "start": "2015-06",
+        "current": true,
+        "keywords": [
+          "Scala",
+          "java",
+          "Python",
+          "Postgres",
+          "SQL",
+          "API",
+          "Distributed Systems",
+          "Legacy System",
+          "Play",
+          "Play Framework",
+          "Slick",
+          "ORM",
+          "Redis",
+          "SQS",
+          "Distributed Queue",
+          "REST"
+        ],
+        "highlights": [
+          "Architected and deployed a new system for importing content.",
+          "Mentored several interns."
+        ]
+      },
+      {
+        "employer": "Inkling Systems Inc.",
+        "url": "https://www.inkling.com",
+        "position": "Infrstructure Engineer",
+        "summary": "One member of a three man team to manage the AWS system that powers the entire service. Also worked to develop internal tools to help other teams own their own infrastucture. Migrated the distributed logging system from Facebook Scribe to a Fluentd, Elasticsearch, and Kibana based system to provide better insight into the workings of the system, and allow easier and faster diagnosis of problems in the system.",
+        "start": "2014-06",
+        "end": "2015-06",
+        "keywords": [
+          "Amazon Web Services",
+          "AWS",
+          "Linux",
+          "Ubuntu",
+          "Python",
+          "Postgres",
+          "SQL",
+          "API",
+          "Fluentd",
+          "Logstash",
+          "Elasticsearch",
+          "Kibana",
+          "Redis",
+          "REST"
+        ],
+        "highlights": [
+          "Redesigned the entire distributed logging system.",
+          "Operated as a member of the emergency on-call rotation."
+        ]
+      },
+      {
+        "employer": "Inkling Systems Inc.",
+        "url": "https://www.inkling.com",
+        "position": "Platform Engineering Intern",
+        "summary": "Worked on the deployment of an XML database for allowing fast searches of marked up content, as well as the development of features on the core API.",
+        "start": "2013-09",
+        "end": "2013-12",
+        "keywords": [
+          "XML",
+          "BaseX",
+          "XQuery",
+          "XPath",
+          "Python",
+          "HTML",
+          "API",
+          "REST"
+        ],
+        "highlights": [
+          "Helped write complex XQuery scripts and API."
+        ]
+      },
+      {
+        "employer": "Vineyard Networks",
+        "position": "Co-op Engineer",
+        "summary": "Developed deep packet inspection (DPI) plugins for a software package that runs on network hardware.",
+        "start": "2012-01",
+        "end": "2012-08",
+        "keywords": [
+          "DPI",
+          "c",
+          "C++",
+          "systems",
+          "high performance",
+          "deep packet inspection",
+          "HTTP",
+          "TCP",
+          "SSL"
+        ],
+        "highlights": [
+          "Learned to analyze raw network traffic to extract patterns for various traffic types (HTTP, TCP, UDP, etc)"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "summary": "",
+    "level": "degree",
+    "degree": "BSENG",
+    "history": [
+      {
+        "institution": "University of Victoria",
+        "url": "https://www.uvic.ca",
+        "start": "2009-09",
+        "end": "2014-05",
+        "grade": "6.39",
+        "summary": "Engineering degree focussed on software engineering and the design of software systems in various environments such as safety critical systems, distributed systems, and firmware. Included a mandatory co-op program that included 16 months of work experience, as well as a large student driven capstone project.",
+        "curriculum": []
+      },
+      {
+        "institution": "SAIT Polytechnic",
+        "url": "https://www.sait.ca",
+        "start": "2006-01",
+        "end": "2007-12",
+        "grade": "4.0",
+        "summary": "Graduated with honors from a hands on programming focussing on the broad topic of Computer Egnineering Technology. This included classes on design and analysis of digital circuits, assembly and repair of electrical and computer hardware, as well as programming and program design.",
+        "curriculum": []
+      }
+    ]
+  },
+  "skills": {
+    "sets": [
+      {
+        "name": "Web Development",
+        "level": "beginner",
+        "skills": [
+          "JavaScript",
+          "HTML 5",
+          "CSS",
+          "LAMP",
+          "REST",
+          "PHP",
+          "Postgresql"
+        ]
+      },
+      {
+        "name": "Distributed Systems",
+        "level": "intermediate",
+        "skills": [
+          "Queues",
+          "Shared Memory",
+          "Databasees",
+          "Redis",
+          "SQS",
+          "RabbitMQ",
+          "Memcache",
+          "Sharding",
+          "Distributed System Design"
+        ]
+      },
+      {
+        "name": "Database",
+        "level": "intermediate",
+        "skills": [
+          "MySQL",
+          "PostgreSQL",
+          "ORM",
+          "Slick"
+        ]
+      },
+      {
+        "name": "Cloud",
+        "level": "intermediate",
+        "skills": [
+          "AWS",
+          "EC2",
+          "S3",
+          "Route53"
+        ]
+      }
+    ],
+    "list": [
+      {
+        "name": "Scala",
+        "id": "1",
+        "summary": "Maintained legacy Scala systems as well as deisgned and deployed new systems in Scala.",
+        "level": "intermediate",
+        "years": 1
+      },
+      {
+        "name": "Python",
+        "id": "2",
+        "summary": "Worked with a core Python API, adding features and fixing bugs.",
+        "level": "intermediate",
+        "years": "3+"
+      },
+      {
+        "name": "Intellij",
+        "summary": "Scala and Java development.",
+        "level": "intermediate",
+        "years": 2
+      },
+      {
+        "name": "Linux",
+        "summary": "Have been developing software in a Linux environment since high school.",
+        "level": "intermediate",
+        "years": "6+"
+      },
+      {
+        "name": "OS X",
+        "summary": "All development at Inkling is done on OS X.",
+        "level": "intermediate",
+        "years": "2+"
+      },
+      {
+        "name": "Java",
+        "summary": "Use Java generally in the context of SCala development.",
+        "level": "beginner",
+        "years": 1
+      }
+    ]
+  },
+  "samples": [
+    {
+      "title": "Shoulder to Shoulder Collectibles",
+      "summary": "Developed in PHP on a LAMP stack in high school, for a family members brick and mortar store. This project started as a developmental learning experience, and has continued into a long term maintenance project.",
+      "url": "https://www.shoulder-to-shoulder.net",
+      "date": "2006-05"
+    },
+    {
+      "title": "OneDuckAdventure",
+      "summary": "A travel type blog, using posts sourced from users that find/leave rubber ducks at interesting locations throughout the world. Still in pre-alpha stages, this project is a learning experiment for a reactive JS framework. The current implementation is build on top of MeteorJS and MongoDB.",
+      "url": "https://www.oneduckadventure.com",
+      "date": "2015-10"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "level": "Native"
+    }
+  ],
+  "extracurricular": [
+    {
+      "title": "Organizational Chair",
+      "activity": "Western Engineering Competition 2013",
+      "location": "Victoria, BC",
+      "start": "2011-06",
+      "end": "2013-02",
+      "hightlights": [
+        "Managed a $180,000 budget to run a 5 day event.",
+        "Managed a group of 30 - 40 volunteers",
+        "Successfully ran a 5 day event with 200 ateendees."
+      ]
+    },
+    {
+      "title": "Director of Corporate Relations",
+      "activity": "UVic Engineering Student Society",
+      "location": "Victoria, BC",
+      "start": "2011-08",
+      "end": "2012-04"
+    },
+    {
+      "title": "Director at Large",
+      "activity": "UVic Engineering Student Society",
+      "location": "Victoria, BC",
+      "start": "2010-01",
+      "end": "2011-08"
+    }
+  ],
+  "interests": [
+    {
+      "name": "mountain biking",
+      "summary": "Jeremy enjoys both cross-country and downhill mountain biking, both for the thrill and the atheltic aspect. Jeremy has enjoyed mountain biking in the BC interior, California, and Seattle areas.",
+    },
+    {
+      "name": "technology",
+      "summary": "Jeremy enjoys technology and the profound effect it has had and will continue to have on society. Jeremy is passionate about imagining the ways that technolgoy can positiviely change a person's everyday life in unobtrusive and low impact ways.",
+      "keywords": [
+        "technology",
+        "research",
+        "user experience",
+        "future"
+      ]
+    }
+  ]
+}
