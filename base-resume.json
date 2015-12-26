@@ -2,13 +2,13 @@
   "name": "Jeremy Moseley",
   "meta": {
     "format": "FRESH@0.1.0",
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "resumeVersion": "0.1"
   },
   "info": {
     "label": "Backend Engineer",
     "characterClass": "Software Engineer",
-    "brief": "**Jeremy is a focussed developer who is intrigued by the design and architecture of distributed systems. He has experience with distributed systems in Java, Scala, and Python, and has dabbled in everything from Javascript and HTML to databases and operating systems.",
-    "quote": "Technology "
+    "brief": "**Jeremy is a focussed developer who is intrigued by the design and architecture of distributed systems. He has experience with distributed systems in Java, Scala, and Python, and has dabbled in everything from Javascript and HTML to databases and operating systems."
   },
   "contact": {
     "phone": "1-415-926-1955",
