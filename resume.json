@@ -1,0 +1,170 @@
+{
+  "basics": {
+    "name": "Jeremy Moseley",
+    "label": "Backend Engineer",
+    "summary": "**Jeremy is a focussed developer who is intrigued by the design and architecture of distributed systems. He has experience with distributed systems in Java, Scala, and Python, and has dabbled in everything from Javascript and HTML to databases and operating systems.",
+    "phone": "1-415-926-1955",
+    "email": "jeremy@jeremymoseley.net",
+    "location": {
+      "address": "Jeremy Moseley\n16540 Linden Ave. N\nSeattle, WA 98133",
+      "postalCode": "98133",
+      "city": "Seattle",
+      "countryCode": "US",
+      "region": "WA"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "jmoseley",
+        "url": "https://github.com/jmoseley"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Jeremy Moseley",
+        "url": "https://www.linkedin.com/in/jeremy-moseley-b3366437"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Inkling Systems Inc.",
+      "website": "https://www.inkling.com",
+      "position": "Software Engineer 3",
+      "startDate": "2015-06-01",
+      "summary": "Maintain and develop a legacy system for transforming markup, as well as develop a new service for importing various types of content.",
+      "highlights": [
+        "Architected and deployed a new system for importing content.",
+        "Mentored several interns."
+      ]
+    },
+    {
+      "company": "Inkling Systems Inc.",
+      "website": "https://www.inkling.com",
+      "position": "Infrstructure Engineer",
+      "startDate": "2014-06-22",
+      "endDate": "2015-06-01",
+      "summary": "One member of a three man team to manage the AWS system that powers the entire service. Also worked to develop internal tools to help other teams own their own infrastucture. Migrated the distributed logging system from Facebook Scribe to a Fluentd, Elasticsearch, and Kibana based system to provide better insight into the workings of the system, and allow easier and faster diagnosis of problems in the system.",
+      "highlights": [
+        "Redesigned the entire distributed logging system.",
+        "Operated as a member of the emergency on-call rotation."
+      ]
+    },
+    {
+      "company": "Inkling Systems Inc.",
+      "website": "https://www.inkling.com",
+      "position": "Platform Engineering Intern",
+      "startDate": "2013-09-25",
+      "endDate": "2013-12-21",
+      "summary": "Worked on the deployment of an XML database for allowing fast searches of marked up content, as well as the development of features on the core API.",
+      "highlights": [
+        "Helped write complex XQuery scripts and API."
+      ]
+    },
+    {
+      "company": "Internet Shakespeare Editions",
+      "website": "http://ise.uvic.ca",
+      "position": "Part-time Developer",
+      "startDate": "2012-10-01",
+      "endDate": "2013-08-31",
+      "summary": "Worked as a part-time member of a team while in school, using XQuery and XPath to maintain and develop new features for a long-term academic project run by the English department. Deisnged a mobile experience for an originally desktop browser only website, as well as used XQuery and XPath to process and transform marked up content in a variety of interesting ways, depending on how the content was being consumed."
+    },
+    {
+      "company": "Vineyard Networks",
+      "position": "Co-op Engineer",
+      "startDate": "2012-01-03",
+      "endDate": "2012-08-31",
+      "summary": "Developed deep packet inspection (DPI) plugins for a software package that runs on network hardware.",
+      "highlights": [
+        "Learned to analyze raw network traffic to extract patterns for various traffic types (HTTP, TCP, UDP, etc)"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Victoria",
+      "gpa": "6.39",
+      "courses": [],
+      "startDate": "2009-09-01",
+      "endDate": "2014-05-31"
+    },
+    {
+      "institution": "SAIT Polytechnic",
+      "gpa": "4.0",
+      "courses": [],
+      "startDate": "2006-01-03",
+      "endDate": "2007-12-22"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Distributed Systems",
+      "level": "intermediate",
+      "keywords": [
+        "Queues",
+        "Shared Memory",
+        "Databasees",
+        "Redis",
+        "SQS",
+        "RabbitMQ",
+        "Memcache",
+        "Sharding",
+        "Distributed System Design"
+      ]
+    },
+    {
+      "name": "Database",
+      "level": "intermediate",
+      "keywords": [
+        "MySQL",
+        "PostgreSQL",
+        "ORM",
+        "Slick"
+      ]
+    },
+    {
+      "name": "Cloud",
+      "level": "intermediate",
+      "keywords": [
+        "AWS",
+        "EC2",
+        "S3",
+        "Route53"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "level": "beginner",
+      "keywords": [
+        "JavaScript",
+        "HTML 5",
+        "CSS",
+        "LAMP",
+        "REST",
+        "PHP",
+        "Postgresql"
+      ]
+    }
+  ],
+  "interests": [
+    {
+      "name": "mountain biking",
+      "summary": "Jeremy enjoys both cross-country and downhill mountain biking, both for the thrill and the atheltic aspect. Jeremy has enjoyed mountain biking in the BC interior, California, and Seattle areas."
+    },
+    {
+      "name": "technology",
+      "summary": "Jeremy enjoys technology and the profound effect it has had and will continue to have on society. Jeremy is passionate about imagining the ways that technolgoy can positiviely change a person's everyday life in unobtrusive and low impact ways.",
+      "keywords": [
+        "technology",
+        "research",
+        "user experience",
+        "future"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "level": "Native"
+    }
+  ]
+}
