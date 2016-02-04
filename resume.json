@@ -33,8 +33,9 @@
       "startDate": "2015-06-01",
       "summary": "Maintain and develop a legacy system for transforming markup, as well as develop a new service for importing various types of content.",
       "highlights": [
-        "Architected and deployed a new system for importing content.",
-        "Mentored several interns."
+        "Architected and deployed a new system for importing content using the Play! framework for the RESTFUL web interface, and an SQS powered task processing system to handle the jobs.",
+        "Mentored several interns.",
+        "Technology: Scala, Java, AWS, SQS, Postgres, RabbitMQ, Python, XML, HTML"
       ]
     },
     {
@@ -46,7 +47,8 @@
       "summary": "One member of a three man team to manage the AWS system that powers the entire service. Also worked to develop internal tools to help other teams own their own infrastucture. Migrated the distributed logging system from Facebook Scribe to a Fluentd, Elasticsearch, and Kibana based system to provide better insight into the workings of the system, and allow easier and faster diagnosis of problems in the system.",
       "highlights": [
         "Redesigned the entire distributed logging system.",
-        "Operated as a member of the emergency on-call rotation."
+        "Operated as a member of the emergency on-call rotation.",
+        "Technology: AWS, Python, Bash, Postgres, Docker"
       ]
     },
     {
@@ -57,7 +59,8 @@
       "endDate": "2013-12-21",
       "summary": "Worked on the deployment of an XML database for allowing fast searches of marked up content, as well as the development of features on the core API.",
       "highlights": [
-        "Helped write complex XQuery scripts and API."
+        "Helped write complex XQuery scripts and API interface.",
+        "Technology: BaseX, XPath, XQuery, XML, Python"
       ]
     },
     {
@@ -66,7 +69,10 @@
       "position": "Part-time Developer",
       "startDate": "2012-10-01",
       "endDate": "2013-08-31",
-      "summary": "Worked as a part-time member of a team while in school, using XQuery and XPath to maintain and develop new features for a long-term academic project run by the English department. Deisnged a mobile experience for an originally desktop browser only website, as well as used XQuery and XPath to process and transform marked up content in a variety of interesting ways, depending on how the content was being consumed."
+      "summary": "Worked as a part-time member of a team while in school, using XQuery and XPath to maintain and develop new features for a long-term academic project run by the English department. Deisnged a mobile experience for an originally desktop browser only website, as well as used XQuery and XPath to process and transform marked up content in a variety of interesting ways, depending on how the content was being consumed.",
+      "highlights": [
+        "Technology: eXistDB, XPath, XQuery, XML, CSS, Javascript"
+      ]
     },
     {
       "company": "Vineyard Networks",
@@ -75,7 +81,8 @@
       "endDate": "2012-08-31",
       "summary": "Developed deep packet inspection (DPI) plugins for a software package that runs on network hardware.",
       "highlights": [
-        "Learned to analyze raw network traffic to extract patterns for various traffic types (HTTP, TCP, UDP, etc)"
+        "Learned to analyze raw network traffic to extract patterns for various traffic types (HTTP, TCP, UDP, etc)",
+        "Technology: C++"
       ]
     }
   ],
@@ -97,6 +104,16 @@
   ],
   "skills": [
     {
+      "name": "Development Tools",
+      "keywords": [
+        "Intellij",
+        "Sublime Text 2/3",
+        "Git",
+        "SVN",
+        "SBT"
+      ]
+    },
+    {
       "name": "Distributed Systems",
       "level": "intermediate",
       "keywords": [
@@ -112,13 +129,29 @@
       ]
     },
     {
+      "name": "Languages/Frameworks",
+      "keywords": [
+        "Play! Framework",
+        "Scala",
+        "Java",
+        "Javascript",
+        "ES6",
+        "Python",
+        "XQuery/XPath",
+        "Meteor JS",
+        "Bootstrap",
+        "PHP"
+      ]
+    },
+    {
       "name": "Database",
       "level": "intermediate",
       "keywords": [
         "MySQL",
         "PostgreSQL",
         "ORM",
-        "Slick"
+        "Slick",
+        "SQLAlchemy"
       ]
     },
     {
