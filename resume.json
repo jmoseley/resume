@@ -2,7 +2,7 @@
   "basics": {
     "name": "Jeremy Moseley",
     "label": "Backend Engineer",
-    "summary": "**Jeremy is a focussed developer who is intrigued by the design and architecture of distributed systems. He has experience with distributed systems in Java, Scala, and Python, and has dabbled in everything from Javascript and HTML to databases and operating systems.",
+    "summary": "**Jeremy is a focussed engineer who is intrigued by the design and architecture of distributed systems. He has experience with distributed systems in Java, Scala, and Python, and has dabbled in everything from Javascript and HTML to databases and operating systems.",
     "phone": "1-415-926-1955",
     "email": "jeremy@jeremymoseley.net",
     "location": {
@@ -29,13 +29,14 @@
     {
       "company": "Inkling Systems Inc.",
       "website": "https://www.inkling.com",
-      "position": "Software Engineer 3",
+      "position": "Import/Export Software Engineer 3",
       "startDate": "2015-06-01",
-      "summary": "Maintain and develop a legacy system for transforming markup, as well as develop a new service for importing various types of content.",
+      "summary": "The Import/Export squad manages all methods for bring content into and out of the Inkling platform, providing infrastructure for converting content from Word to HTML, HTML to EPUB and PDF, as well as conversion to internal formats for Inkling's internal readers.",
       "highlights": [
-        "Architected and deployed a new system for importing content using the Play! framework for the RESTFUL web interface, and an SQS powered task processing system to handle the jobs.",
-        "Mentored several interns.",
-        "Technology: Scala, Java, AWS, SQS, Postgres, RabbitMQ, Python, XML, HTML"
+        "Reduced content export errors by 10%, increasing customer satisfaction and reducing customer support overhead."
+        "Architected a new microservice using the Play framework and an SQS task processor to provide a scalable worker system to allow easy scaling for demand",
+        "Developed a successful Seattle intern program",
+        "Technology: Scala, Java, Play, AWS, SQS, Postgres, Python, XML"
       ]
     },
     {
@@ -44,11 +45,14 @@
       "position": "Infrstructure Engineer",
       "startDate": "2014-06-22",
       "endDate": "2015-06-01",
-      "summary": "One member of a three man team to manage the AWS system that powers the entire service. Also worked to develop internal tools to help other teams own their own infrastucture. Migrated the distributed logging system from Facebook Scribe to a Fluentd, Elasticsearch, and Kibana based system to provide better insight into the workings of the system, and allow easier and faster diagnosis of problems in the system.",
+      "summary": "The infrastructure team manages infrasturcture tooling and AWS deployment of the Inkling stack. Supports other engineering teams to make deployment and infrastructure management more reliable and easier to work with.",
       "highlights": [
-        "Redesigned the entire distributed logging system.",
-        "Operated as a member of the emergency on-call rotation.",
-        "Technology: AWS, Python, Bash, Postgres, Docker"
+        "Implemented a state-of-the-art distributed log systems that handles 30 million events a day.",
+        "Migrated Inkling's deployment and packaging system to Docker",
+        "Significantly reduced downtime caused by deployments",
+        "Increasing engineering efficiency when developing and deploying new services",
+        "Operated as a member of the emergency on-call rotation"
+        "Technology: Scala, AWS, Python, Bash, Postgres, Docker"
       ]
     },
     {
@@ -57,9 +61,9 @@
       "position": "Platform Engineering Intern",
       "startDate": "2013-09-25",
       "endDate": "2013-12-21",
-      "summary": "Worked on the deployment of an XML database for allowing fast searches of marked up content, as well as the development of features on the core API.",
+      "summary": "Developed and deployed an XML database, and developed supporting features in the core Python API",
       "highlights": [
-        "Helped write complex XQuery scripts and API interface.",
+        "Wrote complex XQuery scripts and API interfaces",
         "Technology: BaseX, XPath, XQuery, XML, Python"
       ]
     },
@@ -69,8 +73,10 @@
       "position": "Part-time Developer",
       "startDate": "2012-10-01",
       "endDate": "2013-08-31",
-      "summary": "Worked as a part-time member of a team while in school, using XQuery and XPath to maintain and develop new features for a long-term academic project run by the English department. Deisnged a mobile experience for an originally desktop browser only website, as well as used XQuery and XPath to process and transform marked up content in a variety of interesting ways, depending on how the content was being consumed.",
+      "summary": "Part-time member of a team while in studying, using XQuery and XPath to maintain and develop new features for a long-term academic project. Desinged a mobile experience, as well as used XQuery and XPath to process and transform marked up content in a variety of interesting ways, depending on how the content was being consumed.",
       "highlights": [
+        "Designed a mobile-first experience from scratch",
+        "Wrote complex and performant XQuery scripts to transform marked up content on the fly for mobile consumption"
         "Technology: eXistDB, XPath, XQuery, XML, CSS, Javascript"
       ]
     },
@@ -81,7 +87,8 @@
       "endDate": "2012-08-31",
       "summary": "Developed deep packet inspection (DPI) plugins for a software package that runs on network hardware.",
       "highlights": [
-        "Learned to analyze raw network traffic to extract patterns for various traffic types (HTTP, TCP, UDP, etc)",
+        "Analyzed raw network traffic to extract patterns for various traffic types (HTTP, TCP, UDP, etc)",
+        "Designed code to analyze Facebook, Google, Steam, and a variety of other application streams."
         "Technology: C++"
       ]
     }
