@@ -96,6 +96,8 @@
   "education": [
     {
       "institution": "University of Victoria",
+      "area": "Software Engineering",
+      "studyType": "Bachelor",
       "gpa": "6.39",
       "courses": [],
       "startDate": "2009-09-01",
@@ -103,7 +105,9 @@
     },
     {
       "institution": "SAIT Polytechnic",
-      "gpa": "4.0",
+      "area": "Computer Engineering Technology",
+      "studyType": "Associates Degree",
+      "gpa": "3.9",
       "courses": [],
       "startDate": "2006-01-03",
       "endDate": "2007-12-22"
