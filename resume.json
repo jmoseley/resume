@@ -33,7 +33,7 @@
       "startDate": "2015-06-01",
       "summary": "The Import/Export squad manages all methods for bring content into and out of the Inkling platform, providing infrastructure for converting content from Word to HTML, HTML to EPUB and PDF, as well as conversion to internal formats for Inkling's internal readers.",
       "highlights": [
-        "Reduced content export errors by 10%, increasing customer satisfaction and reducing customer support overhead."
+        "Reduced content export errors by 10%, increasing customer satisfaction and reducing customer support overhead.",
         "Architected a new microservice using the Play framework and an SQS task processor to provide a scalable worker system to allow easy scaling for demand",
         "Developed a successful Seattle intern program",
         "Technology: Scala, Java, Play, AWS, SQS, Postgres, Python, XML"
@@ -51,7 +51,7 @@
         "Migrated Inkling's deployment and packaging system to Docker",
         "Significantly reduced downtime caused by deployments",
         "Increasing engineering efficiency when developing and deploying new services",
-        "Operated as a member of the emergency on-call rotation"
+        "Operated as a member of the emergency on-call rotation",
         "Technology: Scala, AWS, Python, Bash, Postgres, Docker"
       ]
     },
@@ -76,7 +76,7 @@
       "summary": "Part-time member of a team while in studying, using XQuery and XPath to maintain and develop new features for a long-term academic project. Desinged a mobile experience, as well as used XQuery and XPath to process and transform marked up content in a variety of interesting ways, depending on how the content was being consumed.",
       "highlights": [
         "Designed a mobile-first experience from scratch",
-        "Wrote complex and performant XQuery scripts to transform marked up content on the fly for mobile consumption"
+        "Wrote complex and performant XQuery scripts to transform marked up content on the fly for mobile consumption",
         "Technology: eXistDB, XPath, XQuery, XML, CSS, Javascript"
       ]
     },
@@ -88,7 +88,7 @@
       "summary": "Developed deep packet inspection (DPI) plugins for a software package that runs on network hardware.",
       "highlights": [
         "Analyzed raw network traffic to extract patterns for various traffic types (HTTP, TCP, UDP, etc)",
-        "Designed code to analyze Facebook, Google, Steam, and a variety of other application streams."
+        "Designed code to analyze Facebook, Google, Steam, and a variety of other application streams",
         "Technology: C++"
       ]
     }
@@ -114,7 +114,9 @@
       "name": "Development Tools",
       "keywords": [
         "Intellij",
+        "PyCharm",
         "Sublime Text 2/3",
+        "Maven",
         "Git",
         "SVN",
         "SBT"
@@ -132,19 +134,24 @@
         "RabbitMQ",
         "Memcache",
         "Sharding",
-        "Distributed System Design"
+        "Distributed System Design",
+        "APIs",
+        "API Design"
       ]
     },
     {
       "name": "Languages/Frameworks",
       "keywords": [
-        "Play! Framework",
+        "Play",
+        "Slick",
         "Scala",
         "Java",
+        "Bash",
         "Javascript",
         "ES6",
         "Python",
         "XQuery/XPath",
+        "XML",
         "Meteor JS",
         "Bootstrap",
         "PHP"
@@ -169,19 +176,6 @@
         "EC2",
         "S3",
         "Route53"
-      ]
-    },
-    {
-      "name": "Web Development",
-      "level": "beginner",
-      "keywords": [
-        "JavaScript",
-        "HTML 5",
-        "CSS",
-        "LAMP",
-        "REST",
-        "PHP",
-        "Postgresql"
       ]
     }
   ],
