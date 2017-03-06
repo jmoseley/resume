@@ -1,136 +1,12 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-	
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
-	
-	<title>Jeremy Moseley</title>
-	<link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,700' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
-	
-
-	<style>
-	body, html {
-  padding-top:2.5em;
-  margin:0;
-  background-color:#fafafa;
-}
-
-.note {
-  display:block;
-  position: absolute;
-  top:10px;
-  left:10px;
-
-  font-family: "Open Sans";
-  font-size: 0.6em;
-}
-
-.new {
-  background-color: #81C784;
-
-  border: 1px solid #757575;
-  padding: 1px;
-  border-radius: 4px;
-
-}
-
-/* Header */
-
-header {
-  width:100%;
-  vertical-align: middle;
-  text-align: center;
- 
-}
-
-.header-content {
-  display: inline-block;
-}
-
-.pic {
-  margin: 0 auto;
-  margin-top:-2.5em;
-  
-  border-radius:10em;
-  height:4em;
-  width:4em;
-  
-  border: 2px solid #e0e0e0;
-  transition : all 0.5s linear;
-  
-}
-
-@-webkit-keyframes wiggle {
-  0%   {
-    transform: rotate(0deg);
-  }
-  25%  {
-    transform: rotate(-30deg);
-  }
-  50%  {
-    transform: rotate(15deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
-}
-
-.pic:hover {
-  /*Webkit fix*/
-  -webkit-transform: translateZ(0);
-  
-  cursor:pointer;
-  
-  -webkit-animation: wiggle 0.7s cubic-bezier(0.6, -0.28, 0.735, 0.045);
-}
-
-.header-text {
-  margin-top:0.5em;
-  margin-left:1em;
-}
-
-header p {
-  text-align:center;
-  font-family: "Merriweather";
-  
-  margin:0;
-  
-  color: #212121;
-}
-
-.first-name {
-   font-size: 1.05em;
-}
-
-.subtitle {
-  font-family: "Merriweather";
-  padding-top:.3em;
-  font-size:0.55em;
-  font-weight:500;
-  color: #424242;
-}
-
-/* Information */
-
-.paper {
-  margin: 0 auto;
-  margin-bottom:1em;
-  
-  background-color:white;
-  width:60%;
-  
-  padding:0.5em 0 0.5em 0;
-  
-  border-top: 1px solid #e0e0e0;
-  border-left: 1px solid #e0e0e0;
-  border-right: 1px solid #e0e0e0;
-  border-bottom: 3px solid #e0e0e0;
-  border-radius:3px;
-}
-
-@media(max-width:992px) {
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+<title>Jeremy Moseley</title>
+<link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+<style>body,html{padding-top:2.5em;margin:0;background-color:#fafafa;}.note{display:block;position:absolute;top:10px;left:10px;font-family:"Open Sans";font-size:0.6em;}.new{background-color:#81C784;border:1px solid #757575;padding:1px;border-radius:4px;}header{width:100%;vertical-align:middle;text-align:center;}.header-content{display:inline-block;}.pic{margin:0 auto;margin-top:-2.5em;border-radius:10em;height:4em;width:4em;border:2px solid #e0e0e0;transition:all 0.5s linear;}@-webkit-keyframes wiggle{0%{transform:rotate(0deg);}25%{transform:rotate(-30deg);}50%{transform:rotate(15deg);}100%{transform:rotate(0deg);}}.pic:hover{-webkit-transform:translateZ(0);cursor:pointer;-webkit-animation:wiggle 0.7s cubic-bezier(0.6,-0.28,0.735,0.045);}.header-text{margin-top:0.5em;margin-left:1em;}header p{text-align:center;font-family:"Merriweather";margin:0;color:#212121;}.first-name{font-size:1.05em;}.subtitle{font-family:"Merriweather";padding-top:.3em;font-size:0.55em;font-weight:500;color:#424242;}.paper{margin:0 auto;margin-bottom:1em;background-color:white;width:60%;padding:0.5em 0 0.5em 0;border-top:1px solid #e0e0e0;border-left:1px solid #e0e0e0;border-right:1px solid #e0e0e0;border-bottom:3px solid #e0e0e0;border-radius:3px;}@media(max-width:992px) {
   .paper {
     width:80%;
   }
@@ -308,11 +184,8 @@ div.content-text.skills-listing > p > {
   color:#212121;
 }
 
-
-	</style>
-
-	<style media="print">
-	
+</style>
+  <style media="print">
 body, html {
   background-color: white;
   padding-top: 1.5em;
@@ -429,373 +302,312 @@ div.content-text.skills-listing > ul > li:first-child {
 
 .big-text {
   padding-top: 0;
-}
-	</style>
-	
-	</head>
-	<body>
-
-		<div class="resume-wrapper">
-		  <article class="paper">
-			    <header>
-			      <div class="header-content">
-			        <div class="header-text">
-			          <p>
-			            Jeremy Moseley
-			          </p>
-			          <p class="subtitle">Backend Engineer</p>
-			        </div>
-			      </div>
-			    </header>
-			    <div class="content-wrapper">
-			    
-			      <!-- CONTACT -->
-			      <section class="content">
-			        <div class="row">
-			          <div class="content-cat">
-			           Contact
-			          </div>
-			          <div class="content-text">
-
-				            <ul>
-				              <li>Email</li>
-				              <li><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="274d4255424a5e674d4255424a5e4a4854424b425e09494253">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></li>
-				            </ul>
-
-				            <ul>
-				              <li>Phone</li>
-				              <li>1-415-926-1955</li>
-				            </ul>
-			          </div>
-			        </div>
-			      </section>
-
-			      <!-- LOCATION -->
-					      <section class="content">
-					        <div class="row">
-					          <div class="content-cat">
-					           Location
-					          </div>
-					          <div class="content-text">
-
-						            <ul>
-						              <li>Address</li>
-						              <li>Jeremy Moseley
+}</style>
+</head>
+<body>
+  <div class="resume-wrapper">
+    <article class="paper">
+        <header>
+          <div class="header-content">
+            <div class="header-text">
+              <p>
+                Jeremy Moseley
+              </p>
+              <p class="subtitle">Backend Engineer</p>
+            </div>
+          </div>
+        </header>
+        <div class="content-wrapper">
+          <!-- CONTACT -->
+          <section class="content">
+            <div class="row">
+              <div class="content-cat">
+                Contact
+              </div>
+              <div class="content-text">
+                  <ul>
+                    <li>Email</li>
+                    <li><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="412b2433242c38012b2433242c382c2e32242d24386f2f2435">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></li>
+                  </ul>
+                  <ul>
+                    <li>Phone</li>
+                    <li>1-415-926-1955</li>
+                  </ul>
+              </div>
+            </div>
+          </section>
+          <!-- LOCATION -->
+              <section class="content">
+                <div class="row">
+                  <div class="content-cat">
+                    Location
+                  </div>
+                  <div class="content-text">
+                      <ul>
+                        <li>Address</li>
+                        <li>Jeremy Moseley
 16540 Linden Ave. N
 Seattle, WA 98133</li>
-						            </ul>
-
-							            <ul>
-							              <li>Postal Code & City</li>
-							              <li>98133 Seattle</li>
-							            </ul>
-
-						            <ul>
-						              <li>Region</li>
-						              <li>WA</li>
-						            </ul>
-
-					          </div>
-					        </div>
-					      </section>
-
-						
-						<!-- LANGUAGE -->
-			      <section class="content">
-			        <div class="row">
-			          <div class="content-cat">
-			           Languages
-			          </div>
-			          <div class="content-text">
-
-				            <ul>
-											
-				              	<li>English</li>
-
-
-				            </ul>
-
-			          </div>
-			        </div>
-			      </section>
-
-			      <!-- PROFILES -->
-				      <section class="content profiles">
-				        <div class="row">
-				          <div class="content-cat">
-				           Profiles
-				          </div>
-				          <div class="content-text profiles-listing">
-				            <ul>
-					              	<li>
-					              	<a href="https://github.com/jmoseley" target="_blank">
-							                	GitHub
-							                </a>
-							            </li>
-					              	<li>
-					              	<a href="https://www.linkedin.com/in/jeremy-moseley-b3366437" target="_blank">
-							                	LinkedIn
-							                </a>
-							            </li>
-				            </ul>
-				          </div>
-				        </div>
-				      </section>
-
-								<section class="content">
-			        <div class="row">
-			          <div class="content-cat big-text">
-											Work	Experience
-			          
-
-			          </div>
-			          <div class="content-text work-listing education-listing">
-					            <p style="margin-top:2.4em;">
-													<strong>Import/Export Software Engineer 3</strong> at <strong><a href="https://www.inkling.com">Inkling Systems Inc.:</a></strong>
-					            </p>
-
-											<p>The Import/Export squad manages all methods for bring content into and out of the Inkling platform, providing infrastructure for converting content from Word to HTML, HTML to EPUB and PDF, as well as conversion to internal formats for Inkling&#x27;s internal readers.</p>
-
-												<p class="highlight">Reduced content export errors by 10%, increasing customer satisfaction and reducing customer support overhead.</p>
-												<p class="highlight">Architected a new microservice using the Play framework and an SQS task processor to provide a scalable worker system to allow easy scaling for demand</p>
-												<p class="highlight">Developed a successful Seattle intern program</p>
-												<p class="highlight">Technology: Scala, Java, Play, AWS, SQS, Postgres, Python, XML</p>
-
-									
-			          </div>
-			        </div>
-			      </section>
-								<section class="content work-content">
-			        <div class="row">
-			          <div class="content-cat big-text">
-			          
-			            		<p>2014-06-22 till 2015-06-01</p>
-
-			          </div>
-			          <div class="content-text work-listing education-listing">
-					            <p>
-													<strong>Infrstructure Engineer</strong> at <strong><a href="https://www.inkling.com">Inkling Systems Inc.:</a></strong>
-					            </p>
-
-											<p>The infrastructure team manages infrasturcture tooling and AWS deployment of the Inkling stack. Supports other engineering teams to make deployment and infrastructure management more reliable and easier to work with.</p>
-
-												<p class="highlight">Implemented a state-of-the-art distributed log systems that handles 30 million events a day.</p>
-												<p class="highlight">Migrated Inkling&#x27;s deployment and packaging system to Docker</p>
-												<p class="highlight">Significantly reduced downtime caused by deployments</p>
-												<p class="highlight">Increasing engineering efficiency when developing and deploying new services</p>
-												<p class="highlight">Operated as a member of the emergency on-call rotation</p>
-												<p class="highlight">Technology: Scala, AWS, Python, Bash, Postgres, Docker</p>
-
-									
-			          </div>
-			        </div>
-			      </section>
-								<section class="content work-content">
-			        <div class="row">
-			          <div class="content-cat big-text">
-			          
-			            		<p>2013-09-25 till 2013-12-21</p>
-
-			          </div>
-			          <div class="content-text work-listing education-listing">
-					            <p>
-													<strong>Platform Engineering Intern</strong> at <strong><a href="https://www.inkling.com">Inkling Systems Inc.:</a></strong>
-					            </p>
-
-											<p>Developed and deployed an XML database, and developed supporting features in the core Python API</p>
-
-												<p class="highlight">Wrote complex XQuery scripts and API interfaces</p>
-												<p class="highlight">Technology: BaseX, XPath, XQuery, XML, Python</p>
-
-									
-			          </div>
-			        </div>
-			      </section>
-								<section class="content work-content">
-			        <div class="row">
-			          <div class="content-cat big-text">
-			          
-			            		<p>2012-10-01 till 2013-08-31</p>
-
-			          </div>
-			          <div class="content-text work-listing education-listing">
-					            <p>
-													<strong>Part-time Developer</strong> at <strong><a href="http://ise.uvic.ca">Internet Shakespeare Editions:</a></strong>
-					            </p>
-
-											<p>Part-time member of a team while in studying, using XQuery and XPath to maintain and develop new features for a long-term academic project. Desinged a mobile experience, as well as used XQuery and XPath to process and transform marked up content in a variety of interesting ways, depending on how the content was being consumed.</p>
-
-												<p class="highlight">Designed a mobile-first experience from scratch</p>
-												<p class="highlight">Wrote complex and performant XQuery scripts to transform marked up content on the fly for mobile consumption</p>
-												<p class="highlight">Technology: eXistDB, XPath, XQuery, XML, CSS, Javascript</p>
-
-									
-			          </div>
-			        </div>
-			      </section>
-								<section class="content work-content">
-			        <div class="row">
-			          <div class="content-cat big-text">
-			          
-			            		<p>2012-01-03 till 2012-08-31</p>
-
-			          </div>
-			          <div class="content-text work-listing education-listing">
-					            <p>
-					            		<strong>Co-op Engineer</strong> at <strong>Vineyard Networks:</strong>
-					            </p>
-
-											<p>Developed deep packet inspection (DPI) plugins for a software package that runs on network hardware.</p>
-
-												<p class="highlight">Analyzed raw network traffic to extract patterns for various traffic types (HTTP, TCP, UDP, etc)</p>
-												<p class="highlight">Designed code to analyze Facebook, Google, Steam, and a variety of other application streams</p>
-												<p class="highlight">Technology: C++</p>
-
-									
-			          </div>
-			        </div>
-			      </section>
-
-					
-
-								<section class="content">
-				        <div class="row">
-				          <div class="content-cat big-text">
-
-				            	Education
-
-				            		<p>2009-09-01 till 2014-05-31</p>
-
-				          </div>
-				          <div class="content-text work-listing education-listing">
-						            <p class="heading" style="margin-top:2.35em;">University of Victoria</p>
-
-				            		<p class="highlight">
-													Bachelor:
-				            		<i>Software Engineering (6.39)</i>
-				            		</p>
-
-				          </div>
-				        </div>
-				      </section>
-								<section class="content education-content">
-				        <div class="row">
-				          <div class="content-cat big-text">
-
-
-				            		<p>2006-01-03 till 2007-12-22</p>
-
-				          </div>
-				          <div class="content-text work-listing education-listing">
-						            <p class="heading">SAIT Polytechnic</p>
-
-				            		<p class="highlight">
-													Associates Degree:
-				            		<i>Computer Engineering Technology (3.9)</i>
-				            		</p>
-
-				          </div>
-				        </div>
-				      </section>
-
-
-			      <section class="content">
-			        <div class="row">
-			          <div class="content-cat">
-			            Skills
-			          </div>
-			          <div class="content-text skills-listing">
-			            	<p>
-			            	<span class="name">
-											<strong>
-											Development Tools:
-
-											</strong>
-			            	</span>
-
-
-												Intellij, PyCharm, Sublime Text 2/3, Maven, Git, SVN, SBT
-			            	</p>
-			            	<p>
-			            	<span class="name">
-											<strong>
-											Distributed Systems
-
-											</strong>
-			            	</span>
-
-		                	<span>(intermediate):</span>
-
-												Queues, Shared Memory, Databasees, Redis, SQS, RabbitMQ, Memcache, Sharding, Distributed System Design, APIs, API Design
-			            	</p>
-			            	<p>
-			            	<span class="name">
-											<strong>
-											Languages/Frameworks:
-
-											</strong>
-			            	</span>
-
-
-												Play, Slick, Scala, Java, Bash, Javascript, ES6, Python, XQuery/XPath, XML, Meteor JS, Bootstrap, PHP
-			            	</p>
-			            	<p>
-			            	<span class="name">
-											<strong>
-											Database
-
-											</strong>
-			            	</span>
-
-		                	<span>(intermediate):</span>
-
-												MySQL, PostgreSQL, ORM, Slick, SQLAlchemy
-			            	</p>
-			            	<p>
-			            	<span class="name">
-											<strong>
-											Cloud
-
-											</strong>
-			            	</span>
-
-		                	<span>(intermediate):</span>
-
-												AWS, EC2, S3, Route53
-			            	</p>
-			          </div>
-			        </div>
-			      </section>
-
-			      <section class="content">
-			        <div class="row">
-			          <div class="content-cat">
-			            Interests
-			          </div>
-			          <div class="content-text skills-listing">
-			            	<p>
-			            	<span class="name">
-											<strong>
-												mountain biking:
-											</strong>
-			            	</span>
-			            	</p>
-			            	<p>
-			            	<span class="name">
-											<strong>
-												technology:
-											</strong>
-			            	</span>
-												technology, research, user experience, future
-			            	</p>
-			          </div>
-			        </div>
-			      </section>
-
-		    </div>
-		      
-		  </article>
-		  
-		</div>
-	</body>
+                      </ul>
+                        <ul>
+                          <li>Postal Code & City</li>
+                          <li>98133 Seattle</li>
+                        </ul>
+                      <ul>
+                        <li>Region</li>
+                        <li>WA</li>
+                      </ul>
+                  </div>
+                </div>
+              </section>
+        <!-- LANGUAGE -->
+            <section class="content">
+              <div class="row">
+                <div class="content-cat">
+                  Languages
+                </div>
+                <div class="content-text">
+                    <ul>
+                        <li>English</li>
+                    </ul>
+                </div>
+              </div>
+            </section>
+            <!-- PROFILES -->
+              <section class="content profiles">
+                <div class="row">
+                  <div class="content-cat">
+                    Profiles
+                  </div>
+                  <div class="content-text profiles-listing">
+                    <ul>
+                          <li>
+                            <a href="https://github.com/jmoseley" target="_blank">
+                              GitHub
+                            </a>
+                          </li>
+                          <li>
+                            <a href="https://www.linkedin.com/in/jeremy-moseley-b3366437" target="_blank">
+                              LinkedIn
+                            </a>
+                          </li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+                <section class="content">
+                  <div class="row">
+                    <div class="content-cat big-text">
+                        Work  Experience
+                    </div>
+                    <div class="content-text work-listing education-listing">
+                          <p style="margin-top:2.4em;">
+                          <strong>Software Engineer</strong>
+                          at <strong><a href="https://www.convoy.com">Convoy:</a></strong>
+                        </p>
+                        <p>Small agile team working to disrupt the freight industry using product driven development. Engineering work focusses on mobile and web apps built around a micro-service architecture using cutting edge technology like React and Node.</p>
+                          <p class="highlight">Led the team to developed the first version of a system wide stress testing plan, used to ensure that our systems can handle extreme near-term growth.</p>
+                          <p class="highlight">Learned Javascript and Node quickly become a productive member of the team, working closely with Product to develop useful features for both internal and external users.</p>
+                          <p class="highlight">Maintain and extend systems that allow complex integrations with external customer systems.</p>
+                          <p class="highlight">Technology: Javascript, Node, Postgres, AWS, SQS, SNS, JSON.</p>
+                    </div>
+                  </div>
+                </section>
+                <section class="content work-content">
+                  <div class="row">
+                    <div class="content-cat big-text">
+                          <p>2015-06-01 till 2016-11-03</p>
+                    </div>
+                    <div class="content-text work-listing education-listing">
+                          <p>
+                          <strong>Import/Export Software Engineer 3</strong>
+                          at <strong><a href="https://www.inkling.com">Inkling Systems Inc.:</a></strong>
+                        </p>
+                        <p>The Import/Export squad manages all methods for bring content into and out of the Inkling platform, providing infrastructure for converting content from Word to HTML, HTML to EPUB and PDF, as well as conversion to internal formats for Inkling&#x27;s internal readers.</p>
+                          <p class="highlight">Reduced content export errors by 10%, increasing customer satisfaction and reducing customer support overhead.</p>
+                          <p class="highlight">Architected a new microservice using the Play framework and an SQS task processor to provide a scalable worker system to allow easy scaling for demand</p>
+                          <p class="highlight">Developed a successful Seattle intern program</p>
+                          <p class="highlight">Technology: Scala, Java, Play, AWS, SQS, Postgres, Python, XML</p>
+                    </div>
+                  </div>
+                </section>
+                <section class="content work-content">
+                  <div class="row">
+                    <div class="content-cat big-text">
+                          <p>2014-06-22 till 2015-06-01</p>
+                    </div>
+                    <div class="content-text work-listing education-listing">
+                          <p>
+                          <strong>Infrstructure Engineer</strong>
+                          at <strong><a href="https://www.inkling.com">Inkling Systems Inc.:</a></strong>
+                        </p>
+                        <p>The infrastructure team manages infrasturcture tooling and AWS deployment of the Inkling stack. Supports other engineering teams to make deployment and infrastructure management more reliable and easier to work with.</p>
+                          <p class="highlight">Implemented a state-of-the-art distributed log systems that handles 30 million events a day.</p>
+                          <p class="highlight">Migrated Inkling&#x27;s deployment and packaging system to Docker</p>
+                          <p class="highlight">Significantly reduced downtime caused by deployments</p>
+                          <p class="highlight">Increasing engineering efficiency when developing and deploying new services</p>
+                          <p class="highlight">Operated as a member of the emergency on-call rotation</p>
+                          <p class="highlight">Technology: Scala, AWS, Python, Bash, Postgres, Docker</p>
+                    </div>
+                  </div>
+                </section>
+                <section class="content work-content">
+                  <div class="row">
+                    <div class="content-cat big-text">
+                          <p>2013-09-25 till 2013-12-21</p>
+                    </div>
+                    <div class="content-text work-listing education-listing">
+                          <p>
+                          <strong>Platform Engineering Intern</strong>
+                          at <strong><a href="https://www.inkling.com">Inkling Systems Inc.:</a></strong>
+                        </p>
+                        <p>Developed and deployed an XML database, and developed supporting features in the core Python API</p>
+                          <p class="highlight">Wrote complex XQuery scripts and API interfaces</p>
+                          <p class="highlight">Technology: BaseX, XPath, XQuery, XML, Python</p>
+                    </div>
+                  </div>
+                </section>
+                <section class="content work-content">
+                  <div class="row">
+                    <div class="content-cat big-text">
+                          <p>2012-10-01 till 2013-08-31</p>
+                    </div>
+                    <div class="content-text work-listing education-listing">
+                          <p>
+                          <strong>Part-time Developer</strong>
+                          at <strong><a href="http://ise.uvic.ca">Internet Shakespeare Editions:</a></strong>
+                        </p>
+                        <p>Part-time member of a team while in studying, using XQuery and XPath to maintain and develop new features for a long-term academic project. Desinged a mobile experience, as well as used XQuery and XPath to process and transform marked up content in a variety of interesting ways, depending on how the content was being consumed.</p>
+                          <p class="highlight">Designed a mobile-first experience from scratch</p>
+                          <p class="highlight">Wrote complex and performant XQuery scripts to transform marked up content on the fly for mobile consumption</p>
+                          <p class="highlight">Technology: eXistDB, XPath, XQuery, XML, CSS, Javascript</p>
+                    </div>
+                  </div>
+                </section>
+                <section class="content work-content">
+                  <div class="row">
+                    <div class="content-cat big-text">
+                          <p>2012-01-03 till 2012-08-31</p>
+                    </div>
+                    <div class="content-text work-listing education-listing">
+                          <p>
+                            <strong>Co-op Engineer</strong>
+                            at <strong>Vineyard Networks:</strong>
+                        </p>
+                        <p>Developed deep packet inspection (DPI) plugins for a software package that runs on network hardware.</p>
+                          <p class="highlight">Analyzed raw network traffic to extract patterns for various traffic types (HTTP, TCP, UDP, etc)</p>
+                          <p class="highlight">Designed code to analyze Facebook, Google, Steam, and a variety of other application streams</p>
+                          <p class="highlight">Technology: C++</p>
+                    </div>
+                  </div>
+                </section>
+                <section class="content">
+                  <div class="row">
+                    <div class="content-cat big-text">
+                        Education
+                          <p>2009-09-01 till 2014-05-31</p>
+                    </div>
+                    <div class="content-text work-listing education-listing">
+                          <p class="heading" style="margin-top:2.35em;">University of Victoria</p>
+                        <p class="highlight">
+                          Bachelor:
+                          <i>Software Engineering (6.39)</i>
+                        </p>
+                    </div>
+                  </div>
+                </section>
+                <section class="content education-content">
+                  <div class="row">
+                    <div class="content-cat big-text">
+                          <p>2006-01-03 till 2007-12-22</p>
+                    </div>
+                    <div class="content-text work-listing education-listing">
+                          <p class="heading">SAIT Polytechnic</p>
+                        <p class="highlight">
+                          Associates Degree:
+                          <i>Computer Engineering Technology (3.9)</i>
+                        </p>
+                    </div>
+                  </div>
+                </section>
+          <section class="content">
+            <div class="row">
+              <div class="content-cat">
+                Skills
+              </div>
+              <div class="content-text skills-listing">
+                  <p>
+                    <span class="name">
+                        <strong>
+                          Development Tools:
+                        </strong>
+                    </span>
+                      Visual Studio Code, Intellij, PyCharm, Sublime Text 2/3, Maven, Git, SVN, SBT
+                  </p>
+                  <p>
+                    <span class="name">
+                        <strong>
+                          Distributed Systems
+                        </strong>
+                    </span>
+                      <span>(intermediate):</span>
+                      Queues, Shared Memory, Databasees, Redis, AWS, SQS, SNS, RabbitMQ, Memcache, Sharding, Distributed System Design, APIs, API Design
+                  </p>
+                  <p>
+                    <span class="name">
+                        <strong>
+                          Languages/Frameworks:
+                        </strong>
+                    </span>
+                      Play, Slick, Scala, Java, Bash, Javascript, ES6, Node, Python, XQuery/XPath, XML, Meteor JS, Bootstrap, PHP, React, Redux
+                  </p>
+                  <p>
+                    <span class="name">
+                        <strong>
+                          Database
+                        </strong>
+                    </span>
+                      <span>(intermediate):</span>
+                      MySQL, PostgreSQL, RDS, ORM, Slick, SQLAlchemy
+                  </p>
+                  <p>
+                    <span class="name">
+                        <strong>
+                          Cloud
+                        </strong>
+                    </span>
+                      <span>(intermediate):</span>
+                      AWS, ECS, EC2, S3, Route53, SNS, SQS
+                  </p>
+              </div>
+            </div>
+          </section>
+            <section class="content">
+              <div class="row">
+                <div class="content-cat">
+                  Interests
+                </div>
+                <div class="content-text skills-listing">
+                    <p>
+                      <span class="name">
+                          <strong>
+                            mountain biking:
+                          </strong>
+                      </span>
+                    </p>
+                    <p>
+                      <span class="name">
+                          <strong>
+                            technology:
+                          </strong>
+                      </span>
+                        technology, research, user experience, future
+                    </p>
+                </div>
+              </div>
+            </section>
+        </div>
+    </article>
+  </div>
+</body>
 </html>

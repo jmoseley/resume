@@ -27,10 +27,24 @@
   },
   "work": [
     {
+      "company": "Convoy",
+      "website": "https://www.convoy.com",
+      "position": "Software Engineer",
+      "startDate": "2016-11-03",
+      "summary": "Small agile team working to disrupt the freight industry using product driven development. Engineering work focusses on mobile and web apps built around a micro-service architecture using cutting edge technology like React and Node.",
+      "highlights": [
+        "Led the team to developed the first version of a system wide stress testing plan, used to ensure that our systems can handle extreme near-term growth.",
+        "Learned Javascript and Node quickly become a productive member of the team, working closely with Product to develop useful features for both internal and external users.",
+        "Maintain and extend systems that allow complex integrations with external customer systems.",
+        "Technology: Javascript, Node, Postgres, AWS, SQS, SNS, JSON."
+      ]
+    },
+    {
       "company": "Inkling Systems Inc.",
       "website": "https://www.inkling.com",
       "position": "Import/Export Software Engineer 3",
       "startDate": "2015-06-01",
+      "endDate": "2016-11-03",
       "summary": "The Import/Export squad manages all methods for bring content into and out of the Inkling platform, providing infrastructure for converting content from Word to HTML, HTML to EPUB and PDF, as well as conversion to internal formats for Inkling's internal readers.",
       "highlights": [
         "Reduced content export errors by 10%, increasing customer satisfaction and reducing customer support overhead.",
@@ -117,6 +131,7 @@
     {
       "name": "Development Tools",
       "keywords": [
+        "Visual Studio Code",
         "Intellij",
         "PyCharm",
         "Sublime Text 2/3",
@@ -134,7 +149,9 @@
         "Shared Memory",
         "Databasees",
         "Redis",
+        "AWS",
         "SQS",
+        "SNS",
         "RabbitMQ",
         "Memcache",
         "Sharding",
@@ -153,12 +170,15 @@
         "Bash",
         "Javascript",
         "ES6",
+        "Node",
         "Python",
         "XQuery/XPath",
         "XML",
         "Meteor JS",
         "Bootstrap",
-        "PHP"
+        "PHP",
+        "React",
+        "Redux"
       ]
     },
     {
@@ -167,6 +187,7 @@
       "keywords": [
         "MySQL",
         "PostgreSQL",
+        "RDS",
         "ORM",
         "Slick",
         "SQLAlchemy"
@@ -177,9 +198,12 @@
       "level": "intermediate",
       "keywords": [
         "AWS",
+        "ECS",
         "EC2",
         "S3",
-        "Route53"
+        "Route53",
+        "SNS",
+        "SQS"
       ]
     }
   ],
