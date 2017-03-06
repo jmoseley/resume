@@ -1,13 +1,13 @@
 {
   "basics": {
     "name": "Jeremy Moseley",
-    "label": "Backend Engineer",
-    "summary": "**Jeremy is a focused engineer who is intrigued by the design and architecture of distributed systems. He has experience with distributed systems in Java, Scala, and Python, and has dabbled in everything from Javascript and HTML to databases and operating systems.",
+    "label": "Full Stack Engineer",
+    "summary": "**Jeremy is a focused engineer who is intrigued by the design and architecture of distributed systems. He has experience with distributed systems in Java, Scala, Python, and Javascript, and has dabbled in everything from HTML to databases and operating systems.",
     "phone": "1-415-926-1955",
     "email": "jeremy@jeremymoseley.net",
     "location": {
-      "address": "Jeremy Moseley\n16540 Linden Ave. N\nSeattle, WA 98133",
-      "postalCode": "98133",
+      "address": "Jeremy Moseley\n2018 NW 57th St. APT 503\nSeattle, WA 98107",
+      "postalCode": "98107",
       "city": "Seattle",
       "countryCode": "US",
       "region": "WA"
