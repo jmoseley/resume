@@ -2,11 +2,11 @@
   "basics": {
     "name": "Jeremy Moseley",
     "label": "Full Stack Engineer",
-    "summary": "**Jeremy is a focused engineer who is intrigued by the design and architecture of distributed systems. He has experience with distributed systems in Java, Scala, Python, and Javascript, and has dabbled in everything from HTML to databases and operating systems.",
+    "summary": "Jeremy is a focused engineer who is intrigued by the design and architecture of distributed systems. He has experience with distributed systems in Scala, Python, and Typescript/Javascript, and has dabbled in everything from HTML to databases and operating systems.",
     "phone": "1-415-926-1955",
-    "email": "jeremy@jeremymoseley.net",
+    "email": "jeremy.moseley@gmail.com",
     "location": {
-      "address": "Jeremy Moseley\n2018 NW 57th St. APT 503\nSeattle, WA 98107",
+      "address": "Jeremy Moseley\n14018 25th Ave NE\nSeattle, WA 98125",
       "postalCode": "98107",
       "city": "Seattle",
       "countryCode": "US",
@@ -33,10 +33,12 @@
       "startDate": "2016-11-03",
       "summary": "Small agile team working to disrupt the freight industry using product driven development. Engineering work focusses on mobile and web apps built around a micro-service architecture using cutting edge technology like React and Node.",
       "highlights": [
+        "Mentoring more junior engineers at various stages of their careers (non-traditional background & first job, lightly experienced & starting to tackle larger scope, and traditional background & somewhat experienced).",
+        "Working on projects with Org wide scope, evangelizing and pushing on solutions to large technical project with organizational scope and a large breadth of stakeholders.",
         "Led the team to developed the first version of a system wide stress testing plan, used to ensure that our systems can handle extreme near-term growth.",
         "Learned Javascript and Node quickly become a productive member of the team, working closely with Product to develop useful features for both internal and external users.",
         "Maintain and extend systems that allow complex integrations with external customer systems.",
-        "Technology: Javascript, Node, Postgres, AWS, SQS, SNS, JSON."
+        "Technology: Typescript/Javascript, PostgreSQL, AWS, React"
       ]
     },
     {
@@ -50,23 +52,23 @@
         "Reduced content export errors by 10%, increasing customer satisfaction and reducing customer support overhead.",
         "Architected a new microservice using the Play framework and an SQS task processor to provide a scalable worker system to allow easy scaling for demand",
         "Developed a successful Seattle intern program",
-        "Technology: Scala, Java, Play, AWS, SQS, Postgres, Python, XML"
+        "Technology: Scala, Java, Play, AWS, SQS, PostgreSQL, Python, XML"
       ]
     },
     {
       "company": "Inkling Systems Inc.",
       "website": "https://www.inkling.com",
-      "position": "Infrstructure Engineer",
+      "position": "Infrastructure Engineer",
       "startDate": "2014-06-22",
       "endDate": "2015-06-01",
-      "summary": "The infrastructure team manages infrasturcture tooling and AWS deployment of the Inkling stack. Supports other engineering teams to make deployment and infrastructure management more reliable and easier to work with.",
+      "summary": "The infrastructure team manages infrastructure tooling and AWS deployment of the Inkling stack. Supports other engineering teams to make deployment and infrastructure management more reliable and easier to work with.",
       "highlights": [
         "Implemented a state-of-the-art distributed log systems that handles 30 million events a day.",
         "Migrated Inkling's deployment and packaging system to Docker",
         "Significantly reduced downtime caused by deployments",
         "Increasing engineering efficiency when developing and deploying new services",
         "Operated as a member of the emergency on-call rotation",
-        "Technology: Scala, AWS, Python, Bash, Postgres, Docker"
+        "Technology: Scala, AWS, Python, Bash, PostgreSQL, Docker"
       ]
     },
     {
@@ -87,7 +89,7 @@
       "position": "Part-time Developer",
       "startDate": "2012-10-01",
       "endDate": "2013-08-31",
-      "summary": "Part-time member of a team while in studying, using XQuery and XPath to maintain and develop new features for a long-term academic project. Desinged a mobile experience, as well as used XQuery and XPath to process and transform marked up content in a variety of interesting ways, depending on how the content was being consumed.",
+      "summary": "Part-time member of a team while in studying, using XQuery and XPath to maintain and develop new features for a long-term academic project. Designed a mobile experience, as well as used XQuery and XPath to process and transform marked up content in a variety of interesting ways, depending on how the content was being consumed.",
       "highlights": [
         "Designed a mobile-first experience from scratch",
         "Wrote complex and performant XQuery scripts to transform marked up content on the fly for mobile consumption",
@@ -135,9 +137,7 @@
         "Intellij",
         "PyCharm",
         "Sublime Text 2/3",
-        "Maven",
         "Git",
-        "SVN",
         "SBT"
       ]
     },
@@ -147,7 +147,7 @@
       "keywords": [
         "Queues",
         "Shared Memory",
-        "Databasees",
+        "Databases",
         "Redis",
         "AWS",
         "SQS",
@@ -169,6 +169,7 @@
         "Java",
         "Bash",
         "Javascript",
+        "Typescript",
         "ES6",
         "Node",
         "Python",
@@ -184,14 +185,7 @@
     {
       "name": "Database",
       "level": "intermediate",
-      "keywords": [
-        "MySQL",
-        "PostgreSQL",
-        "RDS",
-        "ORM",
-        "Slick",
-        "SQLAlchemy"
-      ]
+      "keywords": ["MySQL", "PostgreSQL", "RDS", "ORM", "Slick", "SQLAlchemy"]
     },
     {
       "name": "Cloud",
@@ -203,24 +197,21 @@
         "S3",
         "Route53",
         "SNS",
-        "SQS"
+        "SQS",
+        "Heroku",
+        "Hasura"
       ]
     }
   ],
   "interests": [
     {
       "name": "mountain biking",
-      "summary": "Jeremy enjoys both cross-country and downhill mountain biking, both for the thrill and the atheltic aspect. Jeremy has enjoyed mountain biking in the BC interior, California, and Seattle areas."
+      "summary": "Jeremy enjoys both cross-country and downhill mountain biking, both for the thrill and the athletic aspect. Jeremy has enjoyed mountain biking in the BC interior, California, and Seattle areas."
     },
     {
       "name": "technology",
-      "summary": "Jeremy enjoys technology and the profound effect it has had and will continue to have on society. Jeremy is passionate about imagining the ways that technolgoy can positiviely change a person's everyday life in unobtrusive and low impact ways.",
-      "keywords": [
-        "technology",
-        "research",
-        "user experience",
-        "future"
-      ]
+      "summary": "Jeremy enjoys technology and the profound effect it has had and will continue to have on society. Jeremy is passionate about imagining the ways that technology can positively change a person's everyday life in unobtrusive and low impact ways.",
+      "keywords": ["technology", "research", "user experience", "future"]
     }
   ],
   "languages": [
