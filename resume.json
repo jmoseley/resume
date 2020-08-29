@@ -143,7 +143,6 @@
     },
     {
       "name": "Distributed Systems",
-      "level": "intermediate",
       "keywords": [
         "Queues",
         "Shared Memory",
@@ -184,12 +183,10 @@
     },
     {
       "name": "Database",
-      "level": "intermediate",
       "keywords": ["MySQL", "PostgreSQL", "RDS", "ORM", "Slick", "SQLAlchemy"]
     },
     {
       "name": "Cloud",
-      "level": "intermediate",
       "keywords": [
         "AWS",
         "ECS",
