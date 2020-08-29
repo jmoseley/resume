@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "jsonresume-theme-short": "^0.1.7",
+    "prettier": "^2.1.1",
     "resume-cli": "^1.2.8"
   },
   "scripts": {
