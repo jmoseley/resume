@@ -1,14 +1,22 @@
 # resume
 My JSON resume in the JSONResume format.
 
-Use JSONResume to consume the json: `npm install -g resume-cli`
+Use JSONResume to consume the json:
+
+```bash
+npm install
+```
 
 See the HTML version: http://jmoseley.github.io/resume
 
 To export (to HTML):
 
 ```bash
-resume export --theme short
+# html
+npm run html
+
+# PDF
+npm run pdf
 ```
 
 To export (to PDF):

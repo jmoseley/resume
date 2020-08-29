@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "jsonresume-theme-short": "^0.1.7",
+    "resume-cli": "^1.2.8"
+  },
+  "scripts": {
+    "html": "resume export --format html --theme short index.html",
+    "pdf": "resume export --format pdf --theme short resume.pdf"
+  }
+}
