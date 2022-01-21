@@ -1,16 +1,15 @@
 {
   "basics": {
     "name": "Jeremy Moseley",
-    "label": "Full Stack Engineer",
-    "summary": "Jeremy is a focused engineer who is intrigued by the design and architecture of distributed systems. He has experience with distributed systems in Scala, Python, and Typescript/Javascript, and has dabbled in everything from HTML to databases and operating systems.",
+    "label": "Product Engineer",
+    "summary": "Jeremy is a focused engineer who is intrigued by the design and architecture of distributed systems. He has experience with distributed systems in Typescript, Go, Scala, and Python, and has spent time in most parts of the stack, doing infrastructure, product work, and some front-end.",
     "phone": "1-415-926-1955",
     "email": "jeremy.moseley@gmail.com",
     "location": {
-      "address": "Jeremy Moseley\n14018 25th Ave NE\nSeattle, WA 98125",
-      "postalCode": "98107",
-      "city": "Seattle",
-      "countryCode": "US",
-      "region": "WA"
+      "postalCode": "V8Y 2J5",
+      "city": "Victoria",
+      "countryCode": "CA",
+      "region": "BC"
     },
     "profiles": [
       {
@@ -31,12 +30,12 @@
       "website": "https://www.convoy.com",
       "position": "Software Engineer",
       "startDate": "2016-11-03",
-      "summary": "Small agile team working to disrupt the freight industry using product driven development. Engineering work focusses on mobile and web apps built around a micro-service architecture using cutting edge technology like React and Node.",
+      "summary": "Grown with Convoy as it scales its business and organization, from 12 engineers to >200, working on a variety of teams and problem spaces.",
       "highlights": [
+        "Lead and architected a new platform that replaces Convoys internal user facing tools, and enables Convoy to scale its business operations through the next 10x growth period.",
+        "Built a tool that allowed non-technical users to manage system configuration that previously required an entire engineer worth of effort.",
         "Mentoring more junior engineers at various stages of their careers (non-traditional background & first job, lightly experienced & starting to tackle larger scope, and traditional background & somewhat experienced).",
-        "Working on projects with Org wide scope, evangelizing and pushing on solutions to large technical project with organizational scope and a large breadth of stakeholders.",
-        "Led the team to developed the first version of a system wide stress testing plan, used to ensure that our systems can handle extreme near-term growth.",
-        "Learned Javascript and Node quickly become a productive member of the team, working closely with Product to develop useful features for both internal and external users.",
+        "Working on projects with Org wide scope, evangelizing and pushing on solutions to large technical project with a large breadth of stakeholders.",
         "Maintain and extend systems that allow complex integrations with external customer systems.",
         "Technology: Typescript/Javascript, PostgreSQL, AWS, React"
       ]
@@ -61,51 +60,14 @@
       "position": "Infrastructure Engineer",
       "startDate": "2014-06-22",
       "endDate": "2015-06-01",
-      "summary": "The infrastructure team manages infrastructure tooling and AWS deployment of the Inkling stack. Supports other engineering teams to make deployment and infrastructure management more reliable and easier to work with.",
+      "summary": "The infrastructure team manages infrastructure tooling and AWS deployment of the Inkling stack. Supports other engineering teams to make the system more reliable and easier to work with.",
       "highlights": [
         "Implemented a state-of-the-art distributed log systems that handles 30 million events a day.",
-        "Migrated Inkling's deployment and packaging system to Docker",
+        "Migrated Inkling's deployment and packaging system to Docker, allowing the system to be deployed and managed by state-of-the-art tools",
         "Significantly reduced downtime caused by deployments",
         "Increasing engineering efficiency when developing and deploying new services",
         "Operated as a member of the emergency on-call rotation",
         "Technology: Scala, AWS, Python, Bash, PostgreSQL, Docker"
-      ]
-    },
-    {
-      "company": "Inkling Systems Inc.",
-      "website": "https://www.inkling.com",
-      "position": "Platform Engineering Intern",
-      "startDate": "2013-09-25",
-      "endDate": "2013-12-21",
-      "summary": "Developed and deployed an XML database, and developed supporting features in the core Python API",
-      "highlights": [
-        "Wrote complex XQuery scripts and API interfaces",
-        "Technology: BaseX, XPath, XQuery, XML, Python"
-      ]
-    },
-    {
-      "company": "Internet Shakespeare Editions",
-      "website": "http://ise.uvic.ca",
-      "position": "Part-time Developer",
-      "startDate": "2012-10-01",
-      "endDate": "2013-08-31",
-      "summary": "Part-time member of a team while in studying, using XQuery and XPath to maintain and develop new features for a long-term academic project. Designed a mobile experience, as well as used XQuery and XPath to process and transform marked up content in a variety of interesting ways, depending on how the content was being consumed.",
-      "highlights": [
-        "Designed a mobile-first experience from scratch",
-        "Wrote complex and performant XQuery scripts to transform marked up content on the fly for mobile consumption",
-        "Technology: eXistDB, XPath, XQuery, XML, CSS, Javascript"
-      ]
-    },
-    {
-      "company": "Vineyard Networks",
-      "position": "Co-op Engineer",
-      "startDate": "2012-01-03",
-      "endDate": "2012-08-31",
-      "summary": "Developed deep packet inspection (DPI) plugins for a software package that runs on network hardware.",
-      "highlights": [
-        "Analyzed raw network traffic to extract patterns for various traffic types (HTTP, TCP, UDP, etc)",
-        "Designed code to analyze Facebook, Google, Steam, and a variety of other application streams",
-        "Technology: C++"
       ]
     }
   ],
@@ -114,7 +76,6 @@
       "institution": "University of Victoria",
       "area": "Software Engineering",
       "studyType": "Bachelor",
-      "gpa": "6.39",
       "courses": [],
       "startDate": "2009-09-01",
       "endDate": "2014-05-31"
@@ -123,7 +84,6 @@
       "institution": "SAIT Polytechnic",
       "area": "Computer Engineering Technology",
       "studyType": "Associates Degree",
-      "gpa": "3.9",
       "courses": [],
       "startDate": "2006-01-03",
       "endDate": "2007-12-22"
@@ -131,90 +91,36 @@
   ],
   "skills": [
     {
-      "name": "Development Tools",
+      "name": "Frontend",
       "keywords": [
-        "Visual Studio Code",
-        "Intellij",
-        "PyCharm",
-        "Sublime Text 2/3",
-        "Git",
-        "SBT"
+        "React",
+        "HTML/CSS",
+        "Typescript/JavaScript",
+        "Next",
+        "Redux",
+        "GraphQL"
       ]
     },
     {
-      "name": "Distributed Systems",
+      "name": "Backend",
       "keywords": [
-        "Queues",
-        "Shared Memory",
-        "Databases",
-        "Redis",
-        "AWS",
-        "SQS",
-        "SNS",
-        "RabbitMQ",
-        "Memcache",
-        "Sharding",
-        "Distributed System Design",
-        "APIs",
-        "API Design"
-      ]
-    },
-    {
-      "name": "Languages/Frameworks",
-      "keywords": [
-        "Play",
-        "Slick",
-        "Scala",
-        "Java",
-        "Bash",
-        "Javascript",
-        "Typescript",
-        "ES6",
+        "Typescript/Javascript",
         "Node",
         "Python",
-        "XQuery/XPath",
-        "XML",
-        "Meteor JS",
-        "Bootstrap",
-        "PHP",
-        "React",
-        "Redux"
+        "Postgres",
+        "Distributed Systems",
+        "Temporal"
       ]
     },
     {
-      "name": "Database",
-      "keywords": ["MySQL", "PostgreSQL", "RDS", "ORM", "Slick", "SQLAlchemy"]
-    },
-    {
-      "name": "Cloud",
+      "name": "DevOps",
       "keywords": [
+        "DataDog",
+        "Bash",
         "AWS",
-        "ECS",
-        "EC2",
-        "S3",
-        "Route53",
-        "SNS",
-        "SQS",
         "Heroku",
         "Hasura"
       ]
-    }
-  ],
-  "interests": [
-    {
-      "name": "mountain biking",
-      "summary": "Jeremy enjoys both cross-country and downhill mountain biking, both for the thrill and the athletic aspect. Jeremy has enjoyed mountain biking in the BC interior, California, and Seattle areas."
-    },
-    {
-      "name": "technology",
-      "summary": "Jeremy enjoys technology and the profound effect it has had and will continue to have on society. Jeremy is passionate about imagining the ways that technology can positively change a person's everyday life in unobtrusive and low impact ways.",
-      "keywords": ["technology", "research", "user experience", "future"]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "level": "Native"
     }
   ]
 }
