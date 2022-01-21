@@ -1,12 +1,12 @@
 {
   "dependencies": {
-    "jsonresume-theme-elegant": "^1.4.0",
-    "jsonresume-theme-spartan": "^0.3.0",
+    "jsonresume-theme-kendall": "^0.2.0",
+    "jsonresume-theme-stackoverflow": "^1.4.0",
     "prettier": "^2.1.1",
-    "resume-cli": "^1.2.8"
+    "resume-cli": "^3.0.5"
   },
   "scripts": {
-    "html": "resume export --format html --theme elegant index.html",
-    "pdf": "resume export --format pdf --theme spartan resume.pdf"
+    "html": "resume export --format html --theme kendall index.html",
+    "pdf": "resume export --format pdf --theme stackoverflow resume.pdf"
   }
 }
