@@ -3,7 +3,7 @@
     "jsonresume-theme-kendall": "^0.2.0",
     "jsonresume-theme-stackoverflow": "^1.4.0",
     "prettier": "^2.1.1",
-    "resume-cli": "^3.0.5"
+    "resume-cli": "^3.1.2"
   },
   "scripts": {
     "html": "resume export --format html --theme kendall index.html",

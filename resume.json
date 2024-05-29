@@ -2,11 +2,10 @@
   "basics": {
     "name": "Jeremy Moseley",
     "label": "Product Engineer",
-    "summary": "Jeremy is a focused engineer who is intrigued by the design and architecture of distributed systems. He has experience with distributed systems in Typescript, Go, Scala, and Python, and has spent time in most parts of the stack, doing infrastructure, product work, and some front-end.",
+    "summary": "Jeremy is a focused engineer who is intrigued by the design and architecture of distributed systems. He has experience with distributed systems in Typescript, Go, Scala, and Python, and has spent time in most parts of the stack, doing infrastructure, product work, and front-end, truly a fullstack engineer.",
     "phone": "1-415-926-1955",
     "email": "jeremy.moseley@gmail.com",
     "location": {
-      "postalCode": "V8Y 2J5",
       "city": "Victoria",
       "countryCode": "CA",
       "region": "BC"
@@ -26,10 +25,23 @@
   },
   "work": [
     {
+      "company": "ClassDojo",
+      "website": "https://www.classdojo.com",
+      "position": "Senior Software Engineer",
+      "startDate": "2022-04-04",
+      "summary": "Scale and expand the capabilities of the messaging platform, supporting millions of active users and thousands of messages per second.",
+      "highlights": [
+        "Built and deployed V2 of the messaging architecture, to enable more complex messaging use cases and to support the growth of the user base.",
+        "Explored solutions for scaling our monolithic database to support various performance and legal requirements.",
+        "Technology: Typescript/Javascript, MySQL, AWS, React, React Native"
+      ]
+    },
+    {
       "company": "Convoy",
       "website": "https://www.convoy.com",
-      "position": "Software Engineer",
+      "position": "Senior Software Engineer",
       "startDate": "2016-11-03",
+      "endDate": "2022-04-01",
       "summary": "Grown with Convoy as it scales its business and organization, from 12 engineers to >200, working on a variety of teams and problem spaces.",
       "highlights": [
         "Lead and architected a new platform that replaces Convoys internal user facing tools, and enables Convoy to scale its business operations through the next 10x growth period.",
@@ -109,18 +121,12 @@
         "Python",
         "Postgres",
         "Distributed Systems",
-        "Temporal"
+        "MySQL"
       ]
     },
     {
       "name": "DevOps",
-      "keywords": [
-        "DataDog",
-        "Bash",
-        "AWS",
-        "Heroku",
-        "Hasura"
-      ]
+      "keywords": ["DataDog", "Bash", "AWS", "Cloudflare"]
     }
   ]
 }
