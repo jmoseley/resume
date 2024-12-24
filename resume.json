@@ -30,7 +30,11 @@
       "website": "https:://www.cortexclick.com",
       "position": "Founding Engineer",
       "startDate": "2024-08-09",
-      "summary": "Where all the hats. Build a product, chase PMF, talk to customers, etc etc.",
+      "summary": "Wear all the hats. Build a product, chase PMF, talk to customers.",
+      "highlights": [
+        "Technology: Typescript/Javascript, React, Next, Tailwind, Postgres, AWS, Docker, Vercel, React Native",
+        "Best is yet to come"
+      ]
     },
     {
       "company": "ClassDojo",
