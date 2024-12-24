@@ -4,10 +4,15 @@ on:
   push:
     paths:
       - "resume.json"
+      - ".github/workflows/generate-resume.yml"
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: true
+      PUPPETEER_EXECUTABLE_PATH: /usr/bin/chromium-browser
+      RESUME_PUPPETEER_NO_SANDBOX: true
 
     steps:
       - uses: actions/checkout@v4
@@ -19,6 +24,18 @@ jobs:
         with:
           node-version: "20"
           cache: "npm"
+
+      - name: Cache apt packages
+        id: apt-cache
+        uses: actions/cache@v4
+        with:
+          path: /var/cache/apt/archives
+          key: ${{ runner.os }}-apt-${{ hashFiles('.github/workflows/generate-resume.yml') }}
+
+      - name: Install Chrome dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y chromium-browser fonts-liberation libasound2-dev libatk1.0-0 libc6 libcairo2 libcups2 libdbus-1-3 libexpat1 libfontconfig1 libgbm1 libglib2.0-0 libgtk-3-0 libnspr4 libpango-1.0-0 libpangocairo-1.0-0 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 xdg-utils
 
       - name: Install dependencies
         run: npm install
