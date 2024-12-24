@@ -26,10 +26,18 @@
   },
   "work": [
     {
+      "company": "Cortex Click",
+      "website": "https:://www.cortexclick.com",
+      "position": "Founding Engineer",
+      "startDate": "2024-08-09",
+      "summary": "Where all the hats. Build a product, chase PMF, talk to customers, etc etc.",
+    },
+    {
       "company": "ClassDojo",
       "website": "https://www.classdojo.com",
       "position": "Senior Software Engineer",
       "startDate": "2022-04-04",
+      "endDate": "2024-08-08",
       "summary": "Scale and expand the capabilities of the messaging platform, supporting millions of active users and thousands of messages per second.",
       "highlights": [
         "Built and deployed V2 of the messaging architecture, to enable more complex messaging use cases and to support the growth of the user base.",
