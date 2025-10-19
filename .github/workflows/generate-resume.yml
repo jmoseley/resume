@@ -5,6 +5,7 @@ on:
     paths:
       - "resume.json"
       - ".github/workflows/generate-resume.yml"
+  workflow_dispatch:
 
 jobs:
   build:
