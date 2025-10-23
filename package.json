@@ -6,7 +6,7 @@
     "resume-cli": "^3.1.2"
   },
   "scripts": {
-    "html": "resume export --format html --theme kendall index.html",
+    "html": "resume export --format html --theme ./theme-kendall-fixed index.html",
     "pdf": "resume export --format pdf --theme stackoverflow resume.pdf"
   }
 }
